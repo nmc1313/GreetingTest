@@ -1,0 +1,28 @@
+<script>
+//create a function that takes an argument name and greets the person
+function Greeting(name){
+    //function must display generic greeting if no name provided
+    if (name == null) {
+        return "Hi there!";
+    }
+    
+    //if someone inputs all caps, greeting should shout back
+    if (name === name.toUpperCase()){
+        return "HI," + name;
+    }
+    
+    //if multiple names are included, must greet all of them
+    if (typeof name === typeof[]){
+        for(i=0; i<name.length; i++){
+            let greetMultiple = 'Hello, ';
+            greetMultiple += i + ' ';
+        }
+    }
+
+    //last case is straightforward scenario from description
+    else
+    return 'Hi,' + name; 
+}
+
+
+</script>
